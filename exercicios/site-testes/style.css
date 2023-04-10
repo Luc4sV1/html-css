@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+body{
+    color: #000000d2;
+    background-image: linear-gradient(to top, #22275E, #39419E, #5461EB 130%);
+    background-attachment: fixed;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 40;
+}
+main{
+    background-color: #969DE3;
+    box-shadow: 5px 5px 3px #292f70;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.titulo{
+    color: #39419E;
+    font-family: 'Prompt', sans-serif;
+}
+
+.destaque{
+    background-color: #1f90bdd2;
+}
+
+.citacao > img{
+    display: none;
+}
+
+.citacao:hover > img{
+    display: block;
+}
+
+.citacao:hover{
+    color: aliceblue;
+}
+
+blockquote::before{
+    content: '"';
+}
+
+blockquote::after{
+    content: '"';
+}
+
+.citacao{
+    margin: auto;
+    width: fit-content;
+}
+
+a{
+    color: #39419E;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #ffffff;
+}

@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: Idroid;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+:root{
+    --cor0: #52eca4;
+    --cor1: #1acf7b;
+    --cor2: #0c5030;
+}
+
+*{
+    margin: 0px;
+}
+
+a{
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor0);
+}
+
+header{
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    min-height: 100px;
+}
+header > h1{
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 30px;
+}
+header > p{
+    margin: auto;
+    font-size: 1.2em;
+    max-width: 500px;
+    padding: 10px;
+}
+
+nav{
+    padding: 30px;
+    background-color: var(--cor2);
+    text-align: center;
+}
+
+nav > a{
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+nav a:hover{
+    background-color: var(--cor1);
+    color: var(--cor2);
+    transition: 0.5s;
+    padding: 15px;
+
+}
+
+main{
+    background-color: white;
+    min-width: 400px;
+    max-width: 840px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #0000009a;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+img{
+    width: 100%;
+}
+
+#bugdroid{
+    max-width: 300px;
+    min-width: 30%;
+    display: block;
+    margin: auto;
+}
+
+main a{
+    color: var(--cor2);
+    font-weight: bold
+}
+main a::after{
+    content: '\01F517';
+}
+
+.titulo{
+    font-family: Idroid, sans-serif;
+    color: var(--cor2);
+}
+h2{
+    padding: 5px;
+    background-image: linear-gradient(to right, #52eca4ad 5%, transparent);
+    font-size: 1.3em;
+}
+
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 1.1em;
+}
+
+.video{
+    background-color: var(--cor2);
+    margin: 0px -10px;
+    position: relative;
+    padding: 20px;
+    padding-bottom: 55.3%;
+}
+
+.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+aside{
+    background-color: rgba(145, 233, 233, 0.815);
+    border-radius: 8px 8px 8px 8px;
+    
+}
+
+aside ul{
+    list-style-position: inside;
+    list-style: '\2714\00A0\00A0';
+    columns: 2;
+}
+
+aside p{
+    padding: 10px;
+}
+
+aside h3{
+    color: white;
+    margin: 10px 0px;
+    padding: 8px;
+    background-color: #3aaf78;
+    border-radius: 8px 8px 0px 0px;
+}
+
+footer{
+    background-color: var(--cor2);
+    color: white;
+    text-align: center;
+}
+
+

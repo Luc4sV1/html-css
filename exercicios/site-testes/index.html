@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Primeiro Site</title>
+</head>
+<body>
+    <main>
+        <h1 class="titulo">OLÁ, MUNDO!</h1>
+        <p>Primeiro site &lt;nessa&gt; bosta <br> <!--Símbolos começam com &. emoji com &#x (hex)-->
+        Mamaco</p>
+        <div class="citacao">
+            <blockquote cite="Seu Madruga">A vingança nunca é plena, mata a alma e a envenena</blockquote>
+            <img src="imagens/seumadruga.jpg" alt="Seu madruga">
+        </div>
+        <p><abbr title="danese oq significa">FUNAI</abbr></p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <span class="destaque">Nulla ipsum vitae quod atque assumenda!</span> Sunt, suscipit assumenda totam id vitae aliquam. Autem fugit earum illo a enim ratione nemo corporis!</p>
+        <h1 class="titulo">LISTA BRABA</h2>
+        <ol type="1" start="4", reversed>
+            <li>Gifara</li>
+            <li>Efelante</li>
+            <li>Lartaguixa</li>
+            <li>Chacorro</li>
+        </ol>
+        <ul type="circle"> <!--square, disc-->
+            <li>Vacalo</li>
+            <li>Ricenoronte</li>
+            <li>Trigue</li>
+            <li>Mantaduá</li>
+        </ul>
+        <dl> <!--square, disc-->
+            <dt>Vacalo</dt>
+            <dd>Cavalo</dd>
+            <dt>Ricenoronte</dt>
+            <dd>Rinoceronte</dd>
+            <dt>Trigue</dt>
+            <dd>Tigre</dd>
+            <dt>Mantaduá</dt>
+            <dd>Tamanduá</dd>
+        </dl>
+        <picture>
+            <source media="(min-width: 850px)" srcset="mickeybebida.jpg" type="image/jpg">
+
+            <source media="(min-width: 640px)" srcset="mickeybebida-m.jpg" type="image/jpg">
+            
+            <img src="mickeybebida-p.jpg" alt="mickey pai de família">
+        </picture>
+        <p>Clique <a href="mickeybebida.jpg" download="mickeydacracolandia">aqui</a> pra baixar o mickey brabo</p><!--Arquivos em pasta acima começam com ../-->
+        <audio preload="none" controls loop>
+            <source src="midias/joaoemaria.mp3" type="audio/mpeg">
+            <p>Não deu pra carregar esssa bosta</p>
+        </audio>
+        <br>
+        <video width="600" controls poster="midias/android-chrome-192x192.png" >
+            <source src="midias/2021-12-23-155645026.mp4" type="video/mp4">
+            <p>Deu merda</p>
+        </video>
+    </main>
+</body>
+</html>
