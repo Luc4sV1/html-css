@@ -8,39 +8,66 @@
 </head>
 <body>
     <form action="dados.py" method="post" autocomplete="on">
-        <p>
-            <label for="inome">Nome</label> 
-            <input type="text" name="nome" id="inome" required minlength="5" size="10" placeholder="Seu nome" autocomplete="name"> 
-        </p>
-        <p>
-            <label for="isen">Senha</label> 
-            <input type="password" name="sen" id="isen" required minlength="8" size="10" autocomplete="current-password">
-        </p>
-
-        <p>
-            <label for="imed">Média</label>
-            <input type="number" name="med" id="imed" step="0.5" required min="0" max="10">
-        </p>
-
-        <p>
-            <label for="imes">Mês</label>
-            <input type="month" name="mes" id="imes" value="2023-04">
-        </p>
-
-        <p>
-            <label for="idia">Dia</label>
-            <input type="date" name="dia" id="idia">
-        </p>
-
-        <p>
-            <label for="ihora">Hora</label>
-            <input type="time" name="hore" id="ihora">
-        </p>
+        <fieldset>
+            <legend>Dados</legend>
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required minlength="5" size="10" placeholder="Seu nome" autocomplete="name">
+            </p>
+            <p>
+                <label for="isen">Senha</label>
+                <input type="password" name="sen" id="isen" required minlength="8" size="10" autocomplete="current-password">
+            </p>
+            <p>
+                <label for="imed">Média</label>
+                <input type="number" name="med" id="imed" step="0.5" required min="0" max="10">
+            </p>
+            <p>
+                <label for="imes">Mês</label>
+                <input type="month" name="mes" id="imes" value="2023-04">
+            </p>
+            <p>
+                <label for="idia">Dia</label>
+                <input type="date" name="dia" id="idia">
+            </p>
+            <p>
+                <label for="ihora">Hora</label>
+                <input type="time" name="hore" id="ihora">
+            </p>
+            <p>
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel">
+            </p>
+            <p>
+                <input type="radio" name="sexo" id="isexom" value="M" checked><label for="isexom">Masculino</label>
+                <input type="radio" name="sexo" id="isexof" value="F"><label for="isexof">Feminino</label>
+            </p>
+            <!-- Estudar RegEx-->
+        </fieldset>
 
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
+    </form>
+
+    <form action="dados.py" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Receitas</legend>
+            <div>
+                <input type="checkbox" name="lasanha" id="ilasanha"><label for="ilasanha">Lasanha</label><br>
+                <input type="checkbox" name="bolo" id="ibolo"><label for="ibolo">Bolo</label><br>
+                <input type="checkbox" name="macarr" id="imacarr"><label for="imacarr">Macarronada</label><br>
+                <input type="checkbox" name="torta" id="itorta"><label for="itorta">Torta Salgada</label><br>
+            </div>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+        <p>
     </form>
 </body>
 </html>
