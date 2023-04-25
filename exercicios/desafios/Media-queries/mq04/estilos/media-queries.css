@@ -1,0 +1,14 @@
+@media screen and (min-width: 600px) {
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    #tv, #phone, #pc, #print{
+        display: none;
+    }
+    #tablet{
+        display: block;
+        margin: auto;
+    }
+
+}

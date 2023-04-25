@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background-color: black;
+    background-image: url(../imagens/back-phone.jpg);
+    background-repeat: no-repeat;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0.541);
+    padding: 10px;
+    width: 90vw;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#tv, #tablet, #pc, #print{
+    display: none;
+}
+
+#phone{
+    display: block;
+    margin: auto;
+}
