@@ -7,3 +7,11 @@ function menu(){
     }
     
 }
+
+function tamanho(){
+    if(window.innerWidth >= 481){
+        links.style.display = 'block'
+    }else{
+        links.style.display = 'none'
+    }
+}
