@@ -1,0 +1,25 @@
+INPUT ATRIBUTOS **
+autofocus
+autocomplete
+disabled
+value
+readyonly
+required
+placeholder
+inputmode (mudar teclado a ser usado)
+
+INPUT PASSWORD
+minlength
+pattern (expressão para validação)
+title(resposta caso input esteja inválido)
+
+EMAIL
+multiple (varios emails separados por vírgula)
+datalist
+spellcheck
+
+FILE
+accepr (tipo de arquivo)
+multiple
+method post
+enctype="multipart/form-data" 
