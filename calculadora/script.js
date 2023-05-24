@@ -13,10 +13,10 @@ function clean(){
     tela.innerHTML = '';
 }
 
-/*function remove(){
+function remove(){
     let tamanho = tela.innerHTML.length;
-    tela.innerHTML. = ''
-}*/
+    tela.innerHTML = tela.innerHTML.substring(0, tamanho - 1)
+}
 
 function calculo(operator){
     switch(operator){
