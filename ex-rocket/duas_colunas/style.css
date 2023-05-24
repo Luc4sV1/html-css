@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+section{
+    height: 100%;
+    display: flex;
+    gap: .8rem;
+}
+
+section div{
+    background-color: gray;
+    flex-basis: 100px;
+    border: 1px solid white;
+    
+}
+section div:first-child{
+    flex-basis: 25%;
+}
+section div:last-child{
+    flex-grow: 1;
+}

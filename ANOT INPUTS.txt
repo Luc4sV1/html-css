@@ -19,7 +19,28 @@ datalist
 spellcheck
 
 FILE
-accepr (tipo de arquivo)
+accept (tipo de arquivo)
 multiple
 method post
 enctype="multipart/form-data" 
+
+TEXTAREA
+cols - tamanho em colunas
+rows - tamanho em linhas
+wrap
+
+SELECT
+size
+multiple
+<select>
+    <optgroup label="nome"
+
+SEARCH
+aceita datalist 
+aria-label - sem texto label
+
+NUMBER
+step
+
+RANGE
+step

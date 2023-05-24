@@ -1,0 +1,5 @@
+flex-basis - Tamanho do elemento
+
+flex-grow - atribuir espaço a área vazia
+
+flex-shrink - encolhe elemento

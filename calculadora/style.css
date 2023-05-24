@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 500px;
+}
+
+button{
+    font-size: 1.5rem;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+
+#tela{
+    padding: 5px;
+    font-size: 1.5rem;
+    background-color: rgb(50, 49, 49);
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+#botoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    
+    grid-gap: 10px;
+}
+
+#limpar{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: auto;
+}
+
+#zero{
+    width: auto;
+    grid-column: span 3;
+}
