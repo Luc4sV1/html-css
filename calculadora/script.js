@@ -3,7 +3,7 @@ let total = 0
 
 function adicionar(num){
     if (tela.innerHTML.length == 15){
-        window.alert("nao pode")
+        return 0;
     }else{
         tela.innerHTML += num;
     }
@@ -18,10 +18,11 @@ function remove(){
     tela.innerHTML = tela.innerHTML.substring(0, tamanho - 1)
 }
 
-function calculo(operator){
-    switch(operator){
-        case 1: {
-
-        }
+function calculo(){
+    if(tela.innerHTML){
+        tela.innerHTML = eval(tela.innerHTML)
+    }else{
+        tela.innerHTML = "Vazio"
     }
+   
 }
