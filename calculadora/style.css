@@ -19,6 +19,10 @@ body{
 }
 
 button{
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: rgb(57, 57, 57);
     font-size: 1.5rem;
     height: 60px;
     width: 60px;
@@ -26,9 +30,10 @@ button{
 }
 
 #tela{
+    color: black;
     padding: 5px;
     font-size: 1.5rem;
-    background-color: rgb(50, 49, 49);
+    background-color: rgb(139, 139, 139);
     height: 50px;
     display: flex;
     justify-content: flex-end;
