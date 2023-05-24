@@ -30,9 +30,9 @@ button{
     cursor: pointer;
 }
 
-/*button:focus{
+button:active {
     background-color: rgb(27, 27, 27);
-}*/
+}
 
 #tela{
     color: black;
