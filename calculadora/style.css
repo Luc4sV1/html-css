@@ -5,6 +5,7 @@
 }
 
 html{
+    -webkit-tap-highlight-color: transparent;
     background-color: black;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -29,9 +30,9 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+/*button:focus{
     background-color: rgb(27, 27, 27);
-}
+}*/
 
 #tela{
     color: black;

@@ -24,5 +24,4 @@ function calculo(){
     }else{
         tela.innerHTML = "Vazio"
     }
-   
 }
